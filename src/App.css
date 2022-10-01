@@ -1,0 +1,11 @@
+.logo{
+  position: relative;
+  left: 5%;
+  height: 6rem;
+}
+.logo_btn{
+  height: 5rem;
+  width: 5.5rem;
+  border: none;
+  background: transparent;
+}
