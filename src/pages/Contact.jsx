@@ -1,5 +1,6 @@
 import React from 'react'
 import './_contact.scss'
+import './_buttons.scss';
 
 function Contact() {
   return (

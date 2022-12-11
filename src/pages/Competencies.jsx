@@ -4,7 +4,6 @@ import './_competencies.scss'
 function Competencies() {
   return (
     <>
-    <div>Competencies</div>
     <section className='competencies' id='competencies'>
         <h2 className='section__title section__title--competencies'>Competencies</h2>
         <div className="competencies__category">
