@@ -1,6 +1,6 @@
 import React from 'react'
 import './_hero.scss'
-import './_svg.scss'
+import '../components/_svg.scss'
 
 function Hero() {
   return (

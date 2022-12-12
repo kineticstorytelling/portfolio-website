@@ -1,14 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { BrowserRouter, Router, Link } from 'react-router-dom';
 import './Navbar.scss';
 import './_header.scss';
 import './_logo.scss'
+import '../components/_buttons.scss'
 
 
 function Navbar() {
   return (
     <>
-    {/* <BrowserRouter> */}
     <header>
     <div className='nav_list'>
     <button class="logo_btn" tabindex="3"><img src={require("./mylogo.png")} alt="my logo" className='logo' /></button>

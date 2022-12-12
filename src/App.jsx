@@ -22,6 +22,7 @@ function App() {
         <Social />
         <div className="content">
         <Hero />
+        <Services />
         <Competencies />
         <Portfolio />
         <Contact />
