@@ -9,7 +9,6 @@ function Navbar() {
   return (
     <>
     <header>
-    <div className='nav_list'>
     <button className="logo_btn" tabindex="3"><img src={require("./mylogo.png")} alt="my logo" className='logo' /></button>
     <h3 className="touch_logo">click the logo!</h3>
      <div className="nav_list">
@@ -30,7 +29,6 @@ function Navbar() {
                     <a href="#contact">Contact</a>
                 </li> 
             </ul>
-        </div>
         </div>
       </header>
     </>
