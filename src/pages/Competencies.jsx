@@ -1,18 +1,36 @@
 import React from 'react'
 import './_competencies.scss'
+// import { faAngleDown, faAngleUp} from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
+
 
 function Competencies() {
-  return (
+    // const [clicked, setClicked] = useState(false);
+
+    // const toggle = index => {
+    //     if(clicked === index){
+    //         return setClicked(null)
+    //     }
+
+    //     setClicked(index)
+    // }
+
+// When I get back to this, what you're looking at is me following the tutorial on creating an accordion. I stopped here because the font awesome icon I was using only uses content, but I have to now directly connect it to each indiv line. I also need it to turn and I don't think I can do it in css anymore. I also need it to display the block in each individual one. 
+
+ return (
     <>
     <section className='competencies' id='competencies'>
-        <h2 className='section__title section__title--competencies'>Competencies</h2>
+        {/* <h2 className='section__title section__title--competencies'>Competencies</h2>
         <div className="competencies__category">
           <div className="competencies__category-label"><h3>Languages</h3></div>
             <div className="competencies__accordion">
               
               <div className="competencies__accordion-item">
-                <div className="competencies__accordion-header">
-                <img src={require("./assets/HTML5_logo_and_wordmark.svg")} alt="html" />
+                <div className="competencies__accordion-header" > */}
+                    {/* <span>{clicked === index ? <FontAwesomeIcon icon={faAngleDown} /> :<FontAwesomeIcon icon={faAngleUp} />}</span> */}
+                {/* <img src={require("./assets/HTML5_logo_and_wordmark.svg")} alt="html" />
                 <h4>HTML</h4>
                 </div>
                       <div className="competencies__accordion-item-body">
@@ -69,10 +87,10 @@ function Competencies() {
                       </div>
               </div>
             </div>
-        </div>
+        </div> */}
 
         {/* Frameworks and Libraries  */}
-                    <div className="competencies__category-label"><h3>Frameworks and Libraries</h3></div>
+                    {/* <div className="competencies__category-label"><h3>Frameworks and Libraries</h3></div>
                     <div className="competencies__accordion">
                         <div className="competencies__accordion-item">
                             <div className="competencies__accordion-header"><img src={require("./assets/reactlogo.png")} alt="" />
@@ -178,7 +196,7 @@ function Competencies() {
                             </div>
                         </div>
                   </div>
-                </div>
+                </div> */}
 
     </section>
     

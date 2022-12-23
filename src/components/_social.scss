@@ -11,7 +11,7 @@
     margin: 8px 0px;
     overflow: hidden;
     color: #93969b;
-    background: #e0e1e1;
+    background: #eaebeb;
     border-radius: 50px;
     cursor: pointer;
     box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
@@ -34,7 +34,7 @@
     transition: all 0.3s ease-out;
   }
   .icon a{
-    color: #93969b;
+    color: #a3a6ab;
   }
   .social_sidebar .button:nth-child(1):hover .icon{
     background: #39569C;
@@ -44,12 +44,14 @@
   }
   .social_sidebar .button:nth-child(3):hover .icon{
     background: #00ACEE;
+    color: white;
   }
   .social_sidebar .button:nth-child(4):hover .icon{
     background: #262626 ;
   }
   .social_sidebar .button:nth-child(5):hover .icon{
     background: #ff0000;
+    color: white;
   }
   .social_sidebar .button .icon i{
     font-size: 1rem;
@@ -63,7 +65,7 @@
         font-size: 1rem;
         font-weight: 500;
         line-height: 30px;
-        /* margin-left: 10px; */
+        margin-left: 6px; 
         transition: all 0.3s ease-out;
       }
       .social_sidebar .button:nth-child(1) span{

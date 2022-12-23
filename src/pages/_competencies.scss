@@ -15,12 +15,33 @@
     margin: 10% 0 0 0;
   }
   .competencies__accordion{
-    background-color: rgba(195, 196, 197, 0.466);
-    box-shadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px;
+    // background-color: rgba(195, 196, 197, 0.466);
+    // box-shadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px;
     border-radius: 10px;
     width: 46vw;
   }
-  
+  .competencies__accordion-item{
+    width: 60%;
+    margin: auto;
+    
+    
+  }
+
+  .MuiAccordion-root:before{
+    height: 0px;
+  }
+
+  .MuiAccordion-root.Mui-expanded{
+  left: 20%;
+  background-color: rgba(195, 196, 197, 0.466);
+    box-shadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px;
+    border-radius: 10px;
+    width: 60vw;
+}
+// AccordionSummary img{
+//     padding: 0 20px 0 0;
+//     height: 0px;
+// }
   .competencies__accordion-header{
     display: flex;
     flex-direction: row;
@@ -34,7 +55,8 @@
       }
       img{
         padding: 0 20px 0 0;
-        height: 30px;
+        height: 50px;
+        width: 70px
       }
     }
     .competencies__accordion-item-body-content img{
@@ -47,20 +69,25 @@
   .competencies__accordion-header::after{
     font: var(--fa-font-solid);
     transition: all .4s ease;
-    content: "\f107";
+    // content: "\f107";
     position: absolute;
-    left: 70%;
+    // left: 70%;
   }
-  .competencies__accordion-header.active::after{
-    transform: rotate(180deg);
-  }
-  .competencies__accordion-item-body{
-    display: none;
-  }
-  .competencies__accordion-header.active + .competencies__accordion-item-body{
-    display: block;
-    transition: all .4s ease;
-  }
+
+  // .competencies__accordion-header-img{
+  //   background-color: red;
+  //   height: 150px;
+  // }
+  // .competencies__accordion-header.active::after{
+  //   transform: rotate(180deg);
+  // }
+  // .competencies__accordion-item-body{
+  //   display: none;
+  // }
+  // .competencies__accordion-header.active + .competencies__accordion-item-body{
+  //   display: block;
+  //   transition: all .4s ease;
+  // }
 
   @media only screen and (max-width: 600px){
     .competencies{
