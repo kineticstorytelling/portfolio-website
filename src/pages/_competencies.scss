@@ -16,12 +16,12 @@
     font-size: var(--fs-h3);
     margin: 10% 0 0 0;
   }
-  .competencies__accordion{
-    // background-color: rgba(195, 196, 197, 0.466);
-    // box-shadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px;
-    border-radius: 10px;
-    width: 46vw;
-  }
+  // .competencies__accordion{
+  //   background-color: rgba(195, 196, 197, 0.466);
+  //   box-shadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px;
+  //   border-radius: 10px;
+  //   width: 46vw;
+  // }
   .competencies__accordion-item{
     width: 60%;
     margin: auto;
@@ -37,13 +37,10 @@
   left: 20%;
   background-color: rgba(195, 196, 197, 0.466);
     box-shadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px;
-    border-radius: 10px;
-    width: 60vw;
+    // border-radius: 10px;
+    // width: 60vw;
 }
-// AccordionSummary img{
-//     padding: 0 20px 0 0;
-//     height: 0px;
-// }
+
   .competencies__accordion-header{
     display: flex;
     flex-direction: row;

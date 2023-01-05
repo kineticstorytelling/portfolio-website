@@ -1,4 +1,4 @@
-import React,{userState} from 'react'
+import React from 'react'
 import './_competencies.scss'
 // import { faAngleDown, faAngleUp} from '@fortawesome/free-solid-svg-icons'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
