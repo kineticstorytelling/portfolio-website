@@ -14,7 +14,7 @@ function Footer() {
           <li className="social-list__item"><a href="https://dribbble.com/kineticstorytelling" className="social-list__link"> <FontAwesomeIcon icon={faDribbble} /></a></li>
           <li className="social-list__item"><a href="https://www.linkedin.com/in/luke-nam-ab520369/" className="social-list__link"> <FontAwesomeIcon icon={faLinkedin} /></a></li>
           <li className="social-list__item"><a href="https://medium.com/@kineticstorytelling" className="social-list__link"> <FontAwesomeIcon icon={faMedium} /></a></li>
-          <li className="social-list__item"><a href="twitter.com" className="social-list__link"> <FontAwesomeIcon icon={faTwitter} /></a></li>
+          <li className="social-list__item"><a href="https://twitter.com/Luke__nam" className="social-list__link"> <FontAwesomeIcon icon={faTwitter} /></a></li>
       </ul>
   </footer>
   )

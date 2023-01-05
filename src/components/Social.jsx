@@ -25,7 +25,7 @@ function Social() {
 
              <div className="button">
                 <div className="icon">
-                   <FontAwesomeIcon icon={faTwitter} />
+                   <a href="https://twitter.com/Luke__nam"><FontAwesomeIcon icon={faTwitter} /></a>
                </div>  
                <span>Twitter</span>
                 </div>
