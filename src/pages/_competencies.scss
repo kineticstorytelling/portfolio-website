@@ -1,14 +1,16 @@
 .section__title--competencies{
     margin-bottom: 2rem;
+    text-align: center;
+    // margin: auto;
   }
-  .competencies{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 330vh;
-  }
+  // .competencies{
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   flex-wrap: wrap;
+  //   flex-direction: column;
+  //   height: 330vh;
+  // }
   .competencies__category-label{
     text-align: center;
     font-size: var(--fs-h3);
