@@ -1,10 +1,11 @@
 // .portfolio{
-//   height: 200vh;
+//   height: 100vh;
 // }
 
 .section__title--portfolio{
     position: relative;
     text-align: center;
+    margin-bottom: 100px;
   }
   .section__subtitle--portfolio{
     display: flex;
@@ -80,7 +81,7 @@
   
   .project_image1 img{
     position: relative;
-    width: 55%;
+    width: 52vw;
     margin: -33% 0% 10% 5%;
     filter: brightness(70%);
     transition: all .4s ease;
@@ -100,9 +101,9 @@
     border-radius: 10px;
   }
   .project_image2 img{
-    width: 60vw;
+    width: 55vw;
     // min-width: 500px;
-    margin: -34% 0 0 37%;
+    margin: -33% 0 0 37%;
     filter: brightness(70%);
     transition: all .4s ease;
     &:hover{
@@ -131,9 +132,9 @@
   .project_image3 img{
       position: relative;
       // height:400px;
-      width: 90%;
+      width: 55vw;
       min-width: 400px;
-      margin: -28% 3% 0 0;
+      margin: -25% 3% 0 0;
       z-index: 0;
       filter: brightness(70%);
       transition: all .4s ease;

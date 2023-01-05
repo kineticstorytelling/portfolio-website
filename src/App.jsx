@@ -9,7 +9,7 @@ import Hero from './pages/Hero';
 import Social from './components/Social';
 import Footer from './layouts/Footer';
 import Portfolio from './pages/Portfolio';
-import MuiAccordion from './pages/Accordion';
+// import MuiAccordion from './pages/Accordion';
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Hero />
         <Services />
         <Competencies />
-        <MuiAccordion />
+        {/* <MuiAccordion /> */}
         <Portfolio />
         <Contact />
         </div>
