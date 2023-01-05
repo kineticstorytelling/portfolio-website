@@ -25,7 +25,6 @@ import { ExpandMore } from "@mui/icons-material";
 export const Competencies = () => {
     return <>
     <section className='competencies' id='competencies'>
-    {/* <section className="competencies" id="competencies"></section> */}
         <h2 className="section__title section__title--competencies">Competencies</h2>
         <div className="competencies__category">
 
@@ -50,7 +49,6 @@ export const Competencies = () => {
 
                     <Accordion className="competencies__accordion-item  "sx={{ 
                             backgroundColor: "rgba(195, 196, 197, 0.466)",
-                            // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                             boxShadow: 3
             }} >
                         <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -64,9 +62,7 @@ export const Competencies = () => {
                         </AccordionDetails>
                     </Accordion>
                     <Accordion className="competencies__accordion-item  "sx={{ 
-                            // display:'none'
                             backgroundColor: "rgba(195, 196, 197, 0.466)",
-                            // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                             boxShadow: 3
             }} >
                         <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -77,12 +73,10 @@ export const Competencies = () => {
                         </AccordionSummary>
                         <AccordionDetails >
                         <img src={require("./assets/javascript-example.gif")} alt="Javascript" />
-                            {/* <Typography className="competencies__accordion-item-body-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et cum ipsa delectus accusamus optio? Recusandae nisi perferendis quisquam, placeat fuga pariatur assumenda aliquid culpa molestias.</Typography> */}
                         </AccordionDetails>
                     </Accordion>
                     <Accordion className="competencies__accordion-item  "sx={{ 
                             backgroundColor: "rgba(195, 196, 197, 0.466)",
-                            // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                             boxShadow: 3
             }} >
                         <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -93,12 +87,10 @@ export const Competencies = () => {
                         </AccordionSummary>
                         <AccordionDetails >
                         <img src={require("./assets/javascript-example.gif")} alt="typescript" />
-                            {/* <Typography className="competencies__accordion-item-body-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et cum ipsa delectus accusamus optio? Recusandae nisi perferendis quisquam, placeat fuga pariatur assumenda aliquid culpa molestias.</Typography> */}
                         </AccordionDetails>
                     </Accordion>
                     <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                         }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -118,7 +110,6 @@ export const Competencies = () => {
                 <div className="competencies__category-label"><h3>Frameworks and Libraries</h3></div>
                     <Accordion className="competencies__accordion-item  "sx={{ 
                             backgroundColor: "rgba(195, 196, 197, 0.466)",
-                            // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                             boxShadow: 3
                      }} >
                         <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -133,7 +124,6 @@ export const Competencies = () => {
                     </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                             }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -148,7 +138,6 @@ export const Competencies = () => {
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                         }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -163,7 +152,6 @@ export const Competencies = () => {
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                             }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -178,7 +166,6 @@ export const Competencies = () => {
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                             }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -193,7 +180,6 @@ export const Competencies = () => {
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                              }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -208,7 +194,6 @@ export const Competencies = () => {
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                             }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -223,7 +208,6 @@ export const Competencies = () => {
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                             }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -243,7 +227,6 @@ export const Competencies = () => {
                 <div className="competencies__category-label"><h3>CMS and Design</h3></div>
                             <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                             }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -258,7 +241,6 @@ export const Competencies = () => {
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                             }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -273,7 +255,6 @@ export const Competencies = () => {
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                             }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -288,7 +269,6 @@ export const Competencies = () => {
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                             }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -303,7 +283,6 @@ export const Competencies = () => {
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                             }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
@@ -318,7 +297,6 @@ export const Competencies = () => {
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
                                 backgroundColor: "rgba(195, 196, 197, 0.466)",
-                                // boxShadow: rgba(0, 0, 0, 0.411) 0px 10px 15px -3px, rgba(0, 0, 0, 0.281) 0px 4px 6px -2px,
                                 boxShadow: 3
                          }} >
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
