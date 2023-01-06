@@ -1,5 +1,6 @@
 {
-  "name": "react-webp2",
+  "name": "react-webp2", 
+  "homepage": "https://lukenam.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
