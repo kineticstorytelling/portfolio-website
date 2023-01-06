@@ -1,0 +1,104 @@
+.nav_list li a {
+  font-family: var(--ff-secondary);
+}
+
+.nav_list li a:hover {
+  color: var(--clr-accent);
+}
+
+@media only screen and (max-width: 700px) {
+  .nav_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    top: 10rem;
+    left: 40px;
+    width: 30px;
+    height: 100%;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  .nav_list ul {
+    font-size: var(--fs-body);
+    line-height: 2rem;
+    text-align: right;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: rgba(230, 230, 230, 0.63);
+    height: 25rem;
+    width: 8rem;
+    padding-left: 4vw;
+    border-radius: 10px;
+    opacity: 0;
+    -webkit-transform: translateY(10rem);
+            transform: translateY(10rem);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+}
+
+.nav_list li a {
+  font-family: var(--ff-secondary);
+}
+
+.nav_list li a:hover {
+  color: var(--clr-accent);
+}
+
+@media only screen and (max-width: 700px) {
+  .nav_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    top: 10rem;
+    left: 40px;
+    width: 30px;
+    height: 100%;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  .nav_list ul {
+    font-size: var(--fs-body);
+    line-height: 2rem;
+    text-align: right;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: rgba(230, 230, 230, 0.63);
+    height: 25rem;
+    width: 8rem;
+    padding-left: 4vw;
+    border-radius: 10px;
+    opacity: 0;
+    -webkit-transform: translateY(10rem);
+            transform: translateY(10rem);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

@@ -92,14 +92,43 @@
   // }
 
   @media only screen and (max-width: 600px){
+
+    
+   
+    .MuiAccordion-root{
+      left: -6%;
+      width: 350px;
+    }
+
+    .MuiAccordion-root.Mui-expanded{
+      left: -6%;
+      width: 350px;
+    }
     .competencies{
       height: 250vh;
     }
     .competencies__accordion{
-      width: 85vw;
+      width: 50vw;
     }
     .competencies__accordion-header::after{
       position: absolute;
       left: 80%;
     }
-  }
+    .competencies__accordion-header{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 2% 0 2% 5%;
+    }
+      .competencies__accordion h3{
+          padding: 0 0 0 5%;
+        }
+      .competencies__accordion:hover{
+          cursor: pointer;
+        }
+       .competencies__accordion img{
+          padding: 0 20px 0 0;
+          height: 50px;
+          width: 50px
+        }
+      }
