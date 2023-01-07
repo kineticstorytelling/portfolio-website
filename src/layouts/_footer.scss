@@ -36,3 +36,24 @@ footer{
     .social-list__item:nth-child(6):hover{
       background: #00ACEE;
     }
+
+    @media only screen and (max-width: 600px){
+      .social-list__item:nth-child(1):hover {
+        background: #171515;
+      }
+      .social-list__item:nth-child(2):hover {
+        background: #7e0bd6;
+      }
+      .social-list__item:nth-child(3):hover {
+        background: #EA4C89;
+      }
+      .social-list__item:nth-child(4):hover{
+        background: #2164f4;
+      }
+      .social-list__item:nth-child(5):hover{
+        background: #00ab6c;
+      }
+      .social-list__item:nth-child(6):hover{
+        background: #00ACEE;
+      }
+    }

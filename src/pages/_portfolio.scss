@@ -146,6 +146,11 @@
 // Media Queries
 
   @media only screen and (max-width: 600px) {
+    .section__body--portfolio{
+      margin-top: 50%;
+    }
+    // this is because the portfolio page is overlapping with competencies
+
     .portfolio{
       display: flex;
       align-items: center;
@@ -161,12 +166,12 @@
         margin: 10% 0 35% 0;
     }
     .project_description3{
-      width: 50%;
+      width: 85vw;
       margin: auto;
     }
 
     .project_image1 img{
-      width: 30rem;
+      width: 100vw;
       margin-inline: auto;
     }
     .project_image2 img{

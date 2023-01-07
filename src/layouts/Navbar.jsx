@@ -1,6 +1,5 @@
 import React from 'react'
 import './Navbar.scss';
-import './_header.scss';
 import './_logo.scss'
 import '../components/_buttons.scss'
 

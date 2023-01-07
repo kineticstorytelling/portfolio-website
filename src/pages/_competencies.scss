@@ -93,7 +93,9 @@
 
   @media only screen and (max-width: 600px){
 
-    
+    .competencies__category-label h3{
+      font-size: 30px;
+    }
    
     .MuiAccordion-root{
       left: -6%;
@@ -107,6 +109,7 @@
     .competencies{
       height: 250vh;
     }
+    // from here on down, I don't know if it works
     .competencies__accordion{
       width: 50vw;
     }
