@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { Button } from './Styles';
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import './_scroll.scss';
 

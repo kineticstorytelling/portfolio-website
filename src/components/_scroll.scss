@@ -10,8 +10,13 @@
     z-index: 1;
     cursor: pointer;
     color: rgb(178, 178, 178);
-    // #82828273;
     box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
-    // color: green;
     background-color: rgba(232, 229, 229, 0);
+    transition: all 0.3s ease;
+}
+
+.scrollButton:hover{
+    color: rgba(60, 60, 60, 0.511);
+    box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.288), 3px 3px 5px rgba(183, 192, 150, 0.288);
+
 }
