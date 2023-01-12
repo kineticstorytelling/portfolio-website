@@ -68,8 +68,11 @@
 
   .project_content1{
     position: relative;
-    margin: 0 0 0 67%;
+    margin: 10% 0 0 67%;
   }
+  // .project_title1, .project_description1, .project_techList1{
+  //   margin: 20% 0 0 0;
+  // }
   .project_description1{
     background-color: rgb(202, 206, 207);
     height: 13.5rem;
@@ -81,8 +84,8 @@
   
   .project_image1 img{
     position: relative;
-    width: 52vw;
-    margin: -33% 0% 10% 5%;
+    width: 48vw;
+    margin: -24% 0% 10% 10%;
     filter: brightness(70%);
     transition: all .4s ease;
     &:hover{

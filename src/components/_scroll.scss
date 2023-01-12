@@ -1,0 +1,17 @@
+.scrollButton{
+    width: 58px;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    position: fixed;
+    left: 80%;
+    bottom: 40px;
+    font-size: 2rem;
+    z-index: 1;
+    cursor: pointer;
+    color: rgb(178, 178, 178);
+    // #82828273;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    // color: green;
+    background-color: rgba(232, 229, 229, 0);
+}

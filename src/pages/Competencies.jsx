@@ -70,7 +70,7 @@ export const Competencies = () => {
                         }>
                             <img src={require("./assets/JavaScript-logo.png")} alt="Javascript" />
                             <Typography className="competencies__accordion-header competencies__accordion"><h4>Javascript</h4></Typography>
-                        </AccordionSummary>
+                        </AccordionSummary>tg
                         <AccordionDetails >
                         <img src={require("./assets/javascript-example.gif")} alt="Javascript" />
                         </AccordionDetails>

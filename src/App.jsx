@@ -9,6 +9,7 @@ import Hero from './pages/Hero';
 import Social from './components/Social';
 import Footer from './layouts/Footer';
 import Portfolio from './pages/Portfolio';
+import ScrollButton from './components/ScrollToTop';
 // import MuiAccordion from './pages/Accordion';
 
 
@@ -27,6 +28,7 @@ function App() {
         <Portfolio />
         <Contact />
         </div>
+        <ScrollButton />
         <Footer />
       </div>
       </body>
