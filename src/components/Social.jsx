@@ -5,7 +5,7 @@ import './_social.scss';
 
 function Social() {
     return (
-    <header>
+
     <div className="social_sidebar">
 
             <div className="button">
@@ -52,7 +52,7 @@ function Social() {
             </div>
 
     </div>
-    </header>
+ 
 
     )
 }
