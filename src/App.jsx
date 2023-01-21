@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './layouts/Navbar';
-import './App.scss';
+import './_app.scss';
 import './_typography.scss'
 import Services from './pages/Services';
 import Competencies from './pages/Competencies';

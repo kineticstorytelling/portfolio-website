@@ -5,16 +5,29 @@
     padding: 30vh;
     height: 70vh;
     position: relative;
+    background-image: var();
 }
 
-.section__title--hero{
+// .videos{
+//   position: relative;
+//   width: 120vw;
+//   right: 2%;
+// }
+.section__title--hero,
+  .section__title--hero-name{
   font-family: var(--ff-primary);
   font-size: 8vh;
   font-weight: 600;
   text-align: left;
   top: 18vh;
-  left: 48vw;
+  left: 58vw;
   position: absolute;
+}
+.section__title--hero-name{
+  left: 68vw;
+  top: 35vh;
+  // font-family: var(--ff-secondary);
+  font-size: 4rem;
 }
 .section__subtitle--hero{
   font-family: var(--ff-primary);
@@ -47,11 +60,18 @@
       top: 50%;
       font-size: 3rem;
     }
+    .section__title--hero-name{
+      left: 68vw;
+      top: 35vh;
+      color: rgb(211, 3, 3);
+      font-family: var(--ff-secondary);
+      font-size: 4rem;
+    }
     .section__subtitle--hero{
       position: absolute;
       padding-top: 10%;
       right: 1;
-      top: 55%;
+      top: 40%;
     }
     .section__subtitle--hero1{
       position: relative;
@@ -69,6 +89,12 @@
       .section__title--hero{
       position: absolute;
       left: 15%;
+    }
+    .section__title--hero-name{
+      left: 68vw;
+      top: 35vh;
+      font-family: var(--ff-secondary);
+      font-size: 4rem;
     }
     .section__subtitle--hero{
       position: absolute;
