@@ -1,6 +1,8 @@
 .section__title--competencies{
     margin-bottom: 2rem;
     text-align: center;
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+
     // margin: auto;
   }
   // .competencies{
@@ -15,6 +17,8 @@
     text-align: center;
     font-size: var(--fs-h3);
     margin: 10% 0 0 0;
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+
   }
   // .competencies__accordion{
   //   background-color: rgba(195, 196, 197, 0.466);
@@ -25,8 +29,7 @@
   .competencies__accordion-item{
     width: 60%;
     margin: auto;
-    
-    
+ 
   }
 
   .MuiAccordion-root:before{

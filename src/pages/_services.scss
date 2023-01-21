@@ -4,6 +4,7 @@
   
   .section__title--services{
     color: var(--clr-dark);
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
     position: relative;
   }
   /* this is the line under what I do */
@@ -15,6 +16,9 @@
     margin: 0.1em auto .7em;
     background: currentColor;
     opacity: 0.25;
+  }
+  .service h3{
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
   }
   @media (min-width: 800px){
     .services{

@@ -6,11 +6,15 @@
     position: relative;
     text-align: center;
     margin-bottom: 100px;
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+
   }
   .section__subtitle--portfolio{
     display: flex;
     justify-content: center;
     padding: 5% 40% 10% 20%;
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+
   }
   .section__body--portfolio{
     background: url(./assets/portfoliobg.png);
@@ -41,6 +45,7 @@
   
   .project_title a {
     text-decoration: none;
+    text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
     color: var(--clr-dark);
     transition: all .4s ease;
     &:hover{

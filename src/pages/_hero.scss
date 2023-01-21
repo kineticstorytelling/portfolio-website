@@ -56,30 +56,38 @@
     }
     .section__title--hero{
       position: absolute;
+      text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+
       left: 32%;
       top: 50%;
       font-size: 3rem;
     }
     .section__title--hero-name{
-      left: 68vw;
-      top: 35vh;
+      left: 15vw;
+      top: 46vh;
       color: rgb(211, 3, 3);
       font-family: var(--ff-secondary);
       font-size: 4rem;
+      text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+
     }
     .section__subtitle--hero{
       position: absolute;
       padding-top: 10%;
       right: 1;
-      top: 40%;
+      top: 65%;
+      text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+
     }
     .section__subtitle--hero1{
       position: relative;
-      top: 25%;
+      top: 32%;
       right: 32%;
       padding: 0 0% 0% 45%;
       margin-bottom: -25px;
       text-align: right;
+      text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+
   
     }
 
