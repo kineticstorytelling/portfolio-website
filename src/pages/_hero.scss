@@ -4,8 +4,9 @@
     align-items: center;
     padding: 30vh;
     height: 70vh;
-    position: relative;
+    // position: relative;
     background-image: var();
+    
 }
 
 // .videos{
@@ -13,41 +14,61 @@
 //   width: 120vw;
 //   right: 2%;
 // }
-.section__title--hero,
-  .section__title--hero-name{
+.section__title--hero {
   font-family: var(--ff-primary);
   font-size: 8vh;
   font-weight: 600;
   text-align: left;
-  top: 18vh;
-  left: 58vw;
+  // top: 18vh;
+  // left: 70vw;
+  top: 35vh;
+  right: 15vw;
   position: absolute;
 }
 .section__title--hero-name{
-  left: 68vw;
-  top: 35vh;
-  // font-family: var(--ff-secondary);
+  // position: relative; 
+  // left: 20vw;
+  // bottom: 1vh;
+  position: absolute;
+  right: 15vw;
+  color: rgb(211, 3, 3);
+  font-family: var(--ff-secondary);
   font-size: 4rem;
+  text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
 }
 .section__subtitle--hero{
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   text-align: left;
   margin-bottom: 5vh;
-  top: 30vh;
-  right: 33%;
-  position: absolute;
+  // bottom: 21vh;
+  // right: 18vw;
+  // position: absolute;
+    position: absolute;
+    bottom: 28vh;
+    right: 15vw;
 }
 .section__subtitle--hero1{
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   text-align: left;
   margin-top: 2vh;
-  top: 47%;
-  right: 33%;
+  // bottom: 10vw;
+  // right: 18vw;
+  // position: absolute;
   position: absolute;
+  right: 15vw;
+  bottom: 28vh;
 //   background-size: cov;***
 }
+
+@media only screen and (max-width: 950px){
+  .section__title--hero-name{
+    position: absolute;
+    top: 45vh;
+  }
+}
+
 
 @media only screen and (max-width: 700px){
     .hero{
@@ -57,14 +78,13 @@
     .section__title--hero{
       position: absolute;
       text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
-
-      left: 32%;
-      top: 50%;
+      left: 36vw;
+      top: 20vh;
       font-size: 3rem;
     }
     .section__title--hero-name{
       left: 15vw;
-      top: 46vh;
+      top: 60vh;
       color: rgb(211, 3, 3);
       font-family: var(--ff-secondary);
       font-size: 4rem;
@@ -74,8 +94,8 @@
     .section__subtitle--hero{
       position: absolute;
       padding-top: 10%;
-      right: 1;
-      top: 65%;
+      right: 33vw;
+      bottom: 15vh;
       text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
 
     }
