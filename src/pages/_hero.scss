@@ -40,12 +40,12 @@
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   text-align: left;
-  margin-bottom: 5vh;
+  // margin-bottom: 5vh;
   // bottom: 21vh;
   // right: 18vw;
   // position: absolute;
     position: absolute;
-    bottom: 28vh;
+    bottom: 35vh;
     right: 15vw;
 }
 .section__subtitle--hero1{
@@ -69,7 +69,18 @@
   }
 }
 
-
+// @media only screen and (max-width: 680px){
+//   .section__title--hero-name{
+//     position: absolute;
+//     top: 90vh;
+//   }
+//   .section__title--hero{
+//     position: absolute;
+//     left: 36vw;
+//     top: 10vh;
+//     font-size: 13rem;
+//   }
+// }
 @media only screen and (max-width: 700px){
     .hero{
       padding: 2vh;
@@ -77,14 +88,13 @@
     }
     .section__title--hero{
       position: absolute;
-      text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
-      left: 36vw;
-      top: 20vh;
+      left: 40vw;
+      top: 40vh;
       font-size: 3rem;
     }
     .section__title--hero-name{
-      left: 15vw;
-      top: 60vh;
+      left: 33vw;
+      top: 50vh;
       color: rgb(211, 3, 3);
       font-family: var(--ff-secondary);
       font-size: 4rem;
@@ -94,18 +104,17 @@
     .section__subtitle--hero{
       position: absolute;
       padding-top: 10%;
-      right: 33vw;
-      bottom: 15vh;
+      right: 34vw;
+      bottom: 26vh;
       text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
 
     }
     .section__subtitle--hero1{
-      position: relative;
-      top: 32%;
-      right: 32%;
-      padding: 0 0% 0% 45%;
-      margin-bottom: -25px;
-      text-align: right;
+      position: absolute;
+      bottom: 14vh;
+      right: 28vw;
+      padding: 0 0% 0% 35%;
+      text-align: left;
       text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
 
   
@@ -114,27 +123,36 @@
   }
   
   @media only screen and (max-width: 450px){
+    .hero{
+      height: 60vh;
+    }
       .section__title--hero{
       position: absolute;
-      left: 15%;
+      top: 25vh;
+      left: 35vw;
     }
     .section__title--hero-name{
-      left: 68vw;
-      top: 35vh;
+      left: 26vw;
+      top: 31.5vh;
       font-family: var(--ff-secondary);
-      font-size: 4rem;
+      font-size: 3.5rem;
     }
     .section__subtitle--hero{
+      width: 100vw;
       position: absolute;
-      left: 16%;
-   
+      left: 28vw;
+      bottom: 55vh;
+      // left: 35vw;
+      // top: 35vh;
     }
     .section__subtitle--hero1{
-      position: relative;
-      top: -12%;
-      right: 32%;
-      margin-bottom: -25px;
-      text-align: left;
-  
+      position: absolute;
+      // left: 15vw;
+      // top: 3vh;
+      width: 100vw;
+      top: 43vh;
+      right: 2vw;
+      padding-left: 10%;
+      text-align: center;
     }
   }
