@@ -1,9 +1,32 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    // font-size: 100%;
+    // font: inherit;
+    vertical-align: baseline;
+}
+
 .hero{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30vh;
-    height: 70vh;
+    height: 90vh;
     // position: relative;
     background-image: var();
     
@@ -31,9 +54,10 @@
   // bottom: 1vh;
   position: absolute;
   right: 15vw;
+  bottom: 40vh;
   color: rgb(211, 3, 3);
   font-family: var(--ff-secondary);
-  font-size: 4rem;
+  font-size: 70px;
   text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
 }
 .section__subtitle--hero{
@@ -45,7 +69,7 @@
   // right: 18vw;
   // position: absolute;
     position: absolute;
-    bottom: 35vh;
+    bottom: 42vh;
     right: 15vw;
 }
 .section__subtitle--hero1{
@@ -58,14 +82,14 @@
   // position: absolute;
   position: absolute;
   right: 15vw;
-  bottom: 28vh;
+  bottom: 38vh;
 //   background-size: cov;***
 }
 
 @media only screen and (max-width: 950px){
   .section__title--hero-name{
     position: absolute;
-    top: 45vh;
+    top: 40vh;
   }
 }
 
@@ -103,9 +127,10 @@
     }
     .section__subtitle--hero{
       position: absolute;
-      padding-top: 10%;
+      padding: 10% 0 0 35%;
       right: 34vw;
       bottom: 26vh;
+      text-align: center;
       text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
 
     }
@@ -113,8 +138,8 @@
       position: absolute;
       bottom: 14vh;
       right: 28vw;
-      padding: 0 0% 0% 35%;
-      text-align: left;
+      padding: 0 0% 0% 25%;
+      text-align: center;
       text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
 
   
@@ -141,6 +166,33 @@
       width: 100vw;
       position: absolute;
       left: 28vw;
+      bottom: 55vh;
+      // left: 35vw;
+      // top: 35vh;
+    }
+    .section__subtitle--hero1{
+      position: absolute;
+      // left: 15vw;
+      // top: 3vh;
+      width: 100vw;
+      top: 43vh;
+      right: 2vw;
+      padding-left: 10%;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 380px){
+
+
+    .section__title--hero-name{
+      left: 26vw;
+      top: 31.5vh;
+    }
+    .section__subtitle--hero{
+      position: absolute;
+      padding-left: 0;
+      left: 5vw;
       bottom: 55vh;
       // left: 35vw;
       // top: 35vh;
