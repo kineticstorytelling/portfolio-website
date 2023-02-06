@@ -55,7 +55,7 @@ time, mark, audio, video {
   position: absolute;
   right: 15vw;
   bottom: 40vh;
-  color: rgb(211, 3, 3);
+  // color: rgb(211, 3, 3);
   font-family: var(--ff-secondary);
   font-size: 70px;
   text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
@@ -119,7 +119,7 @@ time, mark, audio, video {
     .section__title--hero-name{
       left: 33vw;
       top: 50vh;
-      color: rgb(211, 3, 3);
+      // color: rgb(211, 3, 3);
       font-family: var(--ff-secondary);
       font-size: 4rem;
       text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
@@ -129,7 +129,7 @@ time, mark, audio, video {
       position: absolute;
       padding: 10% 0 0 35%;
       right: 34vw;
-      bottom: 26vh;
+      bottom: 20vh;
       text-align: center;
       text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
 
@@ -149,7 +149,7 @@ time, mark, audio, video {
   
   @media only screen and (max-width: 450px){
     .hero{
-      height: 60vh;
+      height: 90vh;
     }
       .section__title--hero{
       position: absolute;
@@ -165,8 +165,8 @@ time, mark, audio, video {
     .section__subtitle--hero{
       width: 100vw;
       position: absolute;
-      left: 28vw;
-      bottom: 55vh;
+      right: 10vw;
+      bottom: 49vh;
       // left: 35vw;
       // top: 35vh;
     }
@@ -182,17 +182,22 @@ time, mark, audio, video {
     }
   }
 
-  @media only screen and (max-width: 380px){
+  // @media only screen and(max-width: 420px){
+  //   .section__subtitle--hero{
+  //     left: 20vw;
+  //   }
+  // }
+  @media only screen and (max-width: 400px){
 
 
     .section__title--hero-name{
-      left: 26vw;
+      left: 23vw;
       top: 31.5vh;
     }
     .section__subtitle--hero{
       position: absolute;
       padding-left: 0;
-      left: 5vw;
+      left: 4vw;
       bottom: 55vh;
       // left: 35vw;
       // top: 35vh;
