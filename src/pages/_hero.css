@@ -16,12 +16,12 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    // font-size: 100%;
-    // font: inherit;
+    /* // font-size: 100%; */
+    /* // font: inherit; */
     vertical-align: baseline;
 }
 
-// I tried adding this reset to see if it will do anything but
+/* // I tried adding this reset to see if it will do anything but */
 
 .hero{
     display: flex;
@@ -29,7 +29,7 @@ time, mark, audio, video {
     align-items: center;
     padding: 30vh;
     height: 90vh;
-    // position: relative;
+    /* // position: relative; */
     background-image: var();
     
 }
@@ -40,16 +40,17 @@ time, mark, audio, video {
   font-size: 8vh;
   font-weight: 600;
   text-align: left;
-  // top: 18vh;
-  // left: 70vw;
+  /* // top: 18vh; */
+  /* // left: 70vw; */
+  /* // color: $base-color; */
   top: 35vh;
   right: 15vw;
   position: absolute;
 }
 .section__title--hero-name{
-  // position: relative; 
-  // left: 20vw;
-  // bottom: 1vh;
+  /* // position: relative;  */
+  /* // left: 20vw; */
+  /* // bottom: 1vh; */
   position: absolute;
   right: 15vw;
   bottom: 40vh;
@@ -61,10 +62,10 @@ time, mark, audio, video {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   text-align: left;
-  // margin-bottom: 5vh;
-  // bottom: 21vh;
-  // right: 18vw;
-  // position: absolute;
+  /* // margin-bottom: 5vh; */
+  /* // bottom: 21vh; */
+  /* // right: 18vw; */
+  /* // position: absolute; */
     position: absolute;
     bottom: 42vh;
     right: 15vw;
@@ -74,13 +75,13 @@ time, mark, audio, video {
   font-size: var(--fs-body);
   text-align: left;
   margin-top: 2vh;
-  // bottom: 10vw;
-  // right: 18vw;
-  // position: absolute;
+  /* // bottom: 10vw; */
+  /* // right: 18vw; */
+  /* // position: absolute; */
   position: absolute;
   right: 15vw;
   bottom: 38vh;
-//   background-size: cov;***
+/* //   background-size: cov;*** */
 }
 
 @media only screen and (max-width: 950px){
@@ -90,7 +91,7 @@ time, mark, audio, video {
   }
 }
 
-// @media only screen and (max-width: 680px){
+/* // @media only screen and (max-width: 680px){
 //   .section__title--hero-name{
 //     position: absolute;
 //     top: 90vh;
@@ -101,7 +102,7 @@ time, mark, audio, video {
 //     top: 10vh;
 //     font-size: 13rem;
 //   }
-// }
+// } */
 @media only screen and (max-width: 700px){
     .hero{
       padding: 2vh;
@@ -116,7 +117,6 @@ time, mark, audio, video {
     .section__title--hero-name{
       left: 33vw;
       top: 50vh;
-      // color: rgb(211, 3, 3);
       font-family: var(--ff-secondary);
       font-size: 4rem;
       text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
@@ -164,13 +164,13 @@ time, mark, audio, video {
       position: absolute;
       right: 10vw;
       bottom: 49vh;
-      // left: 35vw;
-      // top: 35vh;
+      /* // left: 35vw; */
+      /* // top: 35vh; */
     }
     .section__subtitle--hero1{
       position: absolute;
-      // left: 15vw;
-      // top: 3vh;
+      /* // left: 15vw; */
+      /* // top: 3vh; */
       width: 100vw;
       top: 43vh;
       right: 2vw;
@@ -179,11 +179,11 @@ time, mark, audio, video {
     }
   }
 
-  // @media only screen and(max-width: 420px){
-  //   .section__subtitle--hero{
-  //     left: 20vw;
-  //   }
-  // }
+  /* // @media only screen and(max-width: 420px){ */
+  /* //   .section__subtitle--hero{ */
+  /* //     left: 20vw; */
+  /* //   } */
+  /* // } */
   @media only screen and (max-width: 400px){
 
 
@@ -196,13 +196,13 @@ time, mark, audio, video {
       padding-left: 0;
       left: 4vw;
       bottom: 55vh;
-      // left: 35vw;
-      // top: 35vh;
+      /* // left: 35vw; */
+      /* // top: 35vh; */
     }
     .section__subtitle--hero1{
       position: absolute;
-      // left: 15vw;
-      // top: 3vh;
+      /* // left: 15vw; */
+      /* // top: 3vh; */
       width: 100vw;
       top: 43vh;
       right: 2vw;

@@ -1,5 +1,5 @@
 import React from 'react'
-import './_hero.scss'
+import './_hero.css'
 import '../components/_svg.scss'
 
 function Hero() {
