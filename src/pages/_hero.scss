@@ -21,6 +21,8 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+// I tried adding this reset to see if it will do anything but
+
 .hero{
     display: flex;
     justify-content: center;
@@ -51,7 +53,6 @@ time, mark, audio, video {
   position: absolute;
   right: 15vw;
   bottom: 40vh;
-  // color: rgb(211, 3, 3);
   font-family: var(--ff-secondary);
   font-size: 70px;
   text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
