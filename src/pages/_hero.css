@@ -184,6 +184,9 @@ time, mark, audio, video {
   /* //     left: 20vw; */
   /* //   } */
   /* // } */
+
+  /* I tried to fix it here since it was closer to the dimensions of my phone. Wanted to see if it's only that width */
+
   @media only screen and (max-width: 400px){
 
 
