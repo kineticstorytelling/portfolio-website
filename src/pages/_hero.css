@@ -1,6 +1,5 @@
 
-
-html, body, div, span, applet, object, iframe,
+  html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -21,15 +20,14 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-/* // I tried adding this reset to see if it will do anything but */
 
 .hero{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 30vh;
+    align-items: flex-end;
+    padding: 20vh 10vw 20vh 20vw;
     height: 90vh;
-    /* // position: relative; */
     background-image: var();
     
 }
@@ -40,20 +38,12 @@ time, mark, audio, video {
   font-size: 8vh;
   font-weight: 600;
   text-align: left;
-  /* // top: 18vh; */
-  /* // left: 70vw; */
-  /* // color: $base-color; */
   top: 35vh;
   right: 15vw;
-  position: absolute;
 }
 .section__title--hero-name{
-  /* // position: relative;  */
-  /* // left: 20vw; */
-  /* // bottom: 1vh; */
-  position: absolute;
   right: 15vw;
-  bottom: 40vh;
+  bottom: 44vh;
   font-family: var(--ff-secondary);
   font-size: 70px;
   text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
@@ -62,11 +52,6 @@ time, mark, audio, video {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   text-align: left;
-  /* // margin-bottom: 5vh; */
-  /* // bottom: 21vh; */
-  /* // right: 18vw; */
-  /* // position: absolute; */
-    position: absolute;
     bottom: 42vh;
     right: 15vw;
 }
@@ -75,41 +60,17 @@ time, mark, audio, video {
   font-size: var(--fs-body);
   text-align: left;
   margin-top: 2vh;
-  /* // bottom: 10vw; */
-  /* // right: 18vw; */
-  /* // position: absolute; */
-  position: absolute;
   right: 15vw;
   bottom: 38vh;
-/* //   background-size: cov;*** */
 }
 
-@media only screen and (max-width: 950px){
-  .section__title--hero-name{
-    position: absolute;
-    top: 40vh;
-  }
-}
 
-/* // @media only screen and (max-width: 680px){
-//   .section__title--hero-name{
-//     position: absolute;
-//     top: 90vh;
-//   }
-//   .section__title--hero{
-//     position: absolute;
-//     left: 36vw;
-//     top: 10vh;
-//     font-size: 13rem;
-//   }
-// } */
 @media only screen and (max-width: 700px){
     .hero{
-      padding: 2vh;
-      height: 80vh;
+      align-items: center;
+      height: 90vh;
     }
     .section__title--hero{
-      position: absolute;
       left: 40vw;
       top: 40vh;
       font-size: 3rem;
@@ -123,8 +84,6 @@ time, mark, audio, video {
 
     }
     .section__subtitle--hero{
-      position: absolute;
-      padding: 10% 0 0 35%;
       right: 34vw;
       bottom: 20vh;
       text-align: center;
@@ -132,14 +91,10 @@ time, mark, audio, video {
 
     }
     .section__subtitle--hero1{
-      position: absolute;
       bottom: 14vh;
       right: 28vw;
-      padding: 0 0% 0% 25%;
       text-align: center;
       text-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
-
-  
     }
 
   }
@@ -149,7 +104,6 @@ time, mark, audio, video {
       height: 90vh;
     }
       .section__title--hero{
-      position: absolute;
       top: 25vh;
       left: 35vw;
     }
@@ -161,51 +115,31 @@ time, mark, audio, video {
     }
     .section__subtitle--hero{
       width: 100vw;
-      position: absolute;
       right: 10vw;
       bottom: 49vh;
-      /* // left: 35vw; */
-      /* // top: 35vh; */
     }
     .section__subtitle--hero1{
-      position: absolute;
-      /* // left: 15vw; */
-      /* // top: 3vh; */
       width: 100vw;
       top: 43vh;
       right: 2vw;
       padding-left: 10%;
+      padding-right: 10%;
       text-align: center;
     }
   }
 
-  /* // @media only screen and(max-width: 420px){ */
-  /* //   .section__subtitle--hero{ */
-  /* //     left: 20vw; */
-  /* //   } */
-  /* // } */
-
-  /* I tried to fix it here since it was closer to the dimensions of my phone. Wanted to see if it's only that width */
 
   @media only screen and (max-width: 400px){
-
-
     .section__title--hero-name{
       left: 23vw;
       top: 31.5vh;
     }
     .section__subtitle--hero{
-      position: absolute;
       padding-left: 0;
       left: 4vw;
       bottom: 55vh;
-      /* // left: 35vw; */
-      /* // top: 35vh; */
     }
     .section__subtitle--hero1{
-      position: absolute;
-      /* // left: 15vw; */
-      /* // top: 3vh; */
       width: 100vw;
       top: 43vh;
       right: 2vw;
