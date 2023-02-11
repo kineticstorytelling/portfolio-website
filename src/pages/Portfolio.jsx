@@ -31,7 +31,7 @@ function Portfolio() {
 
         <div className="portfolio project_image1">
             <a href="https://github.com/DLiSWE/Pantry/">
-                    <img src={require("./assets/fridge1.jpg")} alt="Fridge Project" /> 
+                    <img src={require("../assets/fridge1.jpg")} alt="Fridge Project" /> 
             </a>
         </div>
     </div>
@@ -54,7 +54,7 @@ function Portfolio() {
         </div>
         <div className="portfolio project_image2">
             <a href="https://emergenthealing.com/">
-                   <img src={require("./assets/Emergent Healing Design.png")} alt="Emergent Healing Website Design" />
+                   <img src={require("../assets/Emergent Healing Design.png")} alt="Emergent Healing Website Design" />
             </a>
         </div>
         <div className="portfolio project_content3">
@@ -75,7 +75,7 @@ function Portfolio() {
         </div>
         <div className="portfolio project_image3">
             <a href="https://github.com/DLiSWE/Project3">
-                    <img src={require("./assets/Guess the number game.png")} alt="Emergent Healing Website Design" />
+                    <img src={require("../assets/Guess the number game.png")} alt="Emergent Healing Website Design" />
             </a>
         </div>
     </section>

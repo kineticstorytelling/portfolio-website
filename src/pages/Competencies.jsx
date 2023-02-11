@@ -39,11 +39,11 @@ export const Competencies = () => {
                         <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                             <ExpandMore />
                         }>
-                            <img src={require("./assets/htmllogo.png")} alt="html" />
+                            <img src={require("../assets/htmllogo.png")} alt="html" />
                             <Typography className="competencies__accordion-header competencies__accordion"><h4>HTML</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={require("./assets/sass-example.gif")} alt="CSS" />
+                        <img src={require("../assets/sass-example.gif")} alt="CSS" />
                         </AccordionDetails>
                     </Accordion>
 
@@ -54,11 +54,11 @@ export const Competencies = () => {
                         <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                             <ExpandMore />
                         }>
-                            <img src={require("./assets/CSSLogo_mod1.png")} alt="CSS" />
+                            <img src={require("../assets/CSSLogo_mod1.png")} alt="CSS" />
                             <Typography className="competencies__accordion-header competencies__accordion"><h4>CSS</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={require("./assets/sass-example.gif")} alt="CSS" />
+                        <img src={require("../assets/sass-example.gif")} alt="CSS" />
                         </AccordionDetails>
                     </Accordion>
                     <Accordion className="competencies__accordion-item  "sx={{ 
@@ -68,11 +68,11 @@ export const Competencies = () => {
                         <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                             <ExpandMore />
                         }>
-                            <img src={require("./assets/JavaScript-logo.png")} alt="Javascript" />
+                            <img src={require("../assets/JavaScript-logo.png")} alt="Javascript" />
                             <Typography className="competencies__accordion-header competencies__accordion"><h4>Javascript</h4></Typography>
                         </AccordionSummary>tg
                         <AccordionDetails >
-                        <img src={require("./assets/javascript-example.gif")} alt="Javascript" />
+                        <img src={require("../assets/javascript-example.gif")} alt="Javascript" />
                         </AccordionDetails>
                     </Accordion>
                     <Accordion className="competencies__accordion-item  "sx={{ 
@@ -82,11 +82,11 @@ export const Competencies = () => {
                         <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                             <ExpandMore />
                         }>
-                            <img src={require("./assets/Typescript_logo_2020.svg.png")} alt="typescript" />
+                            <img src={require("../assets/Typescript_logo_2020.svg.png")} alt="typescript" />
                             <Typography className="competencies__accordion-header competencies__accordion"><h4>Typescript</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={require("./assets/javascript-example.gif")} alt="typescript" />
+                        <img src={require("../assets/javascript-example.gif")} alt="typescript" />
                         </AccordionDetails>
                     </Accordion>
                     <Accordion className="competencies__accordion-item  "sx={{ 
@@ -96,11 +96,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/Shopify-Liquid-ProgLang.png")} alt="typescript" />
+                                <img src={require("../assets/Shopify-Liquid-ProgLang.png")} alt="typescript" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Liquid</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/javascript-example.gif")} alt="typescript" />
+                            <img src={require("../assets/javascript-example.gif")} alt="typescript" />
                             </AccordionDetails>
                         </Accordion>
     </div>
@@ -115,11 +115,11 @@ export const Competencies = () => {
                         <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                             <ExpandMore />
                         }>
-                            <img src={require("./assets/SASS_Logo_mod1.png")} alt="SASS" />
+                            <img src={require("../assets/SASS_Logo_mod1.png")} alt="SASS" />
                             <Typography className="competencies__accordion-header competencies__accordion"><h4>SASS</h4></Typography>
                         </AccordionSummary>
                         <AccordionDetails >
-                        <img src={require("./assets/sass-example.gif")} alt="SASS" />
+                        <img src={require("../assets/sass-example.gif")} alt="SASS" />
                         </AccordionDetails>
                     </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
@@ -129,11 +129,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/bootstrap-logo_1.png")} alt="Bootstrap" />
+                                <img src={require("../assets/bootstrap-logo_1.png")} alt="Bootstrap" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Bootstrap</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/javascript-example.gif")} alt="Bootstrap" />
+                            <img src={require("../assets/javascript-example.gif")} alt="Bootstrap" />
                             </AccordionDetails>
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
@@ -143,11 +143,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/Tailwind_CSS_Logo.png")} alt="tailwind" />
+                                <img src={require("../assets/Tailwind_CSS_Logo.png")} alt="tailwind" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Tailwind</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/javascript-example.gif")} alt="tailwind" />
+                            <img src={require("../assets/javascript-example.gif")} alt="tailwind" />
                             </AccordionDetails>
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
@@ -157,11 +157,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/React_Logo.png")} className = "competencies__accordion-header-img" alt="React" />
+                                <img src={require("../assets/React_Logo.png")} className = "competencies__accordion-header-img" alt="React" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>React</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/react-example.gif")} alt="React" />
+                            <img src={require("../assets/react-example.gif")} alt="React" />
                             </AccordionDetails>
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
@@ -171,11 +171,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/nodejs-1-logo1.png")} alt="NodeJS" />
+                                <img src={require("../assets/nodejs-1-logo1.png")} alt="NodeJS" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>NodeJS</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/html-example.gif")} alt="NodeJS" />
+                            <img src={require("../assets/html-example.gif")} alt="NodeJS" />
                             </AccordionDetails>
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
@@ -185,11 +185,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/jquery-logo.png")} alt="Jquery" />
+                                <img src={require("../assets/jquery-logo.png")} alt="Jquery" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>jQuery</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/javascript-example.gif")} alt="jquery" />
+                            <img src={require("../assets/javascript-example.gif")} alt="jquery" />
                             </AccordionDetails>
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
@@ -199,11 +199,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/mongodb-logo.png")} alt="Mongodb" />
+                                <img src={require("../assets/mongodb-logo.png")} alt="Mongodb" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>MongoDB</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/javascript-example.gif")} alt="Mongodb" />
+                            <img src={require("../assets/javascript-example.gif")} alt="Mongodb" />
                             </AccordionDetails>
                         </Accordion>
                         <Accordion className="competencies__accordion-item  "sx={{ 
@@ -213,11 +213,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/Postgresql_elephant.svg.png")} alt="Jquery" />
+                                <img src={require("../assets/Postgresql_elephant.svg.png")} alt="Jquery" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>PostgresSQL</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/javascript-example.gif")} alt="jquery" />
+                            <img src={require("../assets/javascript-example.gif")} alt="jquery" />
                             </AccordionDetails>
                         </Accordion>
 
@@ -232,11 +232,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/WordPress_blue_logo.png")} alt="Wordpress" />
+                                <img src={require("../assets/WordPress_blue_logo.png")} alt="Wordpress" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Wordpress</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/elementor-example.gif")} alt="Wordpress" />
+                            <img src={require("../assets/elementor-example.gif")} alt="Wordpress" />
                             </AccordionDetails>
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
@@ -246,11 +246,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/Shopify-logo.png")} alt="Shopify" />
+                                <img src={require("../assets/Shopify-logo.png")} alt="Shopify" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Shopify</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/elementor-example.gif")} alt="Shopify" />
+                            <img src={require("../assets/elementor-example.gif")} alt="Shopify" />
                             </AccordionDetails>
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
@@ -260,11 +260,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/Elementor-logo.png")} alt="Elementor" />
+                                <img src={require("../assets/Elementor-logo.png")} alt="Elementor" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Elementor</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/elementor-example.gif")} alt="Elementor" />
+                            <img src={require("../assets/elementor-example.gif")} alt="Elementor" />
                             </AccordionDetails>
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
@@ -274,11 +274,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/Figma-logo.png")} alt="Figma" />
+                                <img src={require("../assets/Figma-logo.png")} alt="Figma" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Figma</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/figma-example.gif")} alt="Figma" />
+                            <img src={require("../assets/figma-example.gif")} alt="Figma" />
                             </AccordionDetails>
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
@@ -288,11 +288,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/AdobeXD-logo.png")} alt="Adobexd" />
+                                <img src={require("../assets/AdobeXD-logo.png")} alt="Adobexd" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Adobe XD</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/elementor-example.gif")} alt="Adobexd" />
+                            <img src={require("../assets/elementor-example.gif")} alt="Adobexd" />
                             </AccordionDetails>
                             </Accordion>
                             <Accordion className="competencies__accordion-item  "sx={{ 
@@ -302,11 +302,11 @@ export const Competencies = () => {
                             <AccordionSummary id='panel1-header' className="competencies__accordion-header" expandIcon={
                                 <ExpandMore />
                             }>
-                                <img src={require("./assets/Adobe_Photoshop_logo.png")} alt="AdobePhotoshop" />
+                                <img src={require("../assets/Adobe_Photoshop_logo.png")} alt="AdobePhotoshop" />
                                 <Typography className="competencies__accordion-header competencies__accordion"><h4>Adobe Photoshop</h4></Typography>
                             </AccordionSummary>
                             <AccordionDetails >
-                            <img src={require("./assets/elementor-example.gif")} alt="Adobe photoshop" />
+                            <img src={require("../assets/elementor-example.gif")} alt="Adobe photoshop" />
                             </AccordionDetails>
                             </Accordion>
             </div>
