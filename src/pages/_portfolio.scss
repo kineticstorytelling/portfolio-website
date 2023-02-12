@@ -1,5 +1,7 @@
 
+
 .section__title--portfolio{
+    padding-top: 30vh;
     position: relative;
     text-align: center;
     margin-bottom: 100px;
@@ -70,24 +72,22 @@
 
   .project_content1{
     position: relative;
-    margin: 10% 0 0 67%;
+    margin: 10% 0 10% 57%;
+    padding-right: 0;
   }
-  // .project_title1, .project_description1, .project_techList1{
-  //   margin: 20% 0 0 0;
-  // }
   .project_description1{
     background-color: rgb(202, 206, 207);
     height: 13.5rem;
     width: 23rem;
     font-size: var(--fs-project);
-    padding: 20px 20px 15px 15px;
+    padding: 20px 5% 20% 5%;
     border-radius: 10px;
   }
   
   .project_image1 img{
     position: relative;
     width: 48vw;
-    margin: -35% 0% 10% 10%;
+    margin: -100vh 0% 10% 5%;
     filter: brightness(70%);
     transition: all .4s ease;
     &:hover{
@@ -107,14 +107,19 @@
   }
   .project_image2 img{
     width: 55vw;
-    // min-width: 500px;
-    margin: -33% 0 0 37%;
+    margin: -33% 0 0 43vw;
+    padding-left: 5%;
     filter: brightness(70%);
     transition: all .4s ease;
     &:hover{
-      // z-index: 3;
+      z-index: 3;
       filter: none;
     }
+  }
+  .project_content2{
+    position: relative;
+    padding: 0 0 0 10%;
+    z-index: 1;
   }
     
 // third project
@@ -136,10 +141,9 @@
       
   .project_image3 img{
       position: relative;
-      // height:400px;
-      width: 55vw;
-      min-width: 400px;
-      margin: -25% 3% 0 0;
+      width: 60vw;
+      margin: -20% 3% 0 0;
+      padding-left: 10%;
       z-index: 0;
       filter: brightness(70%);
       transition: all .4s ease;
@@ -149,6 +153,31 @@
   }
 
 // Media Queries
+  @media only screen and (max-width: 700px){
+    .project_content1{
+      margin-left: 45%;
+      z-index: 1;
+    }
+    .project_image1 img{
+      right: 5%;
+    }
+    .project_image1 img:hover{
+      z-index: 2;
+    }
+    .project_content2{
+      right: 7%;
+      z-index: 1;
+    }
+    .project_image2 img{
+      margin-left: 45%;
+      margin-bottom: 10%;
+    }
+    .project_image2{
+        &:hover{
+      z-index: 2;
+    }
+  }
+  }
 
   @media only screen and (max-width: 600px) {
     .section__body--portfolio{
@@ -165,10 +194,10 @@
       margin: 20% 0 40% 0;
     }
     .project_content2 {
-      margin: 10% 0 35% 0;
+      margin: 30vh 0 35% 0;
     }
     .project_content3{
-        margin: 10% 0 35% 0;
+        margin: 20% 0 35% 0;
     }
     .project_description3{
       width: 85vw;
@@ -177,15 +206,18 @@
 
     .project_image1 img{
       width: 100vw;
+      top: 28vh;
       margin-inline: auto;
     }
     .project_image2 img{
-      width: 100vw;
+      width: 105vw;
+      top: 28vh;
       margin-inline: auto;
     }
     .project_image3 img{
       margin-inline: auto;
-      width: 100vw;
+      bottom: 5vh;
+      width: 115vw;
     }
   }
 
