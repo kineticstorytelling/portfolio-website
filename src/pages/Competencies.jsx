@@ -1,14 +1,13 @@
 import React from 'react'
 import './_competencies.scss'
-// import { faAngleDown, faAngleUp} from '@fortawesome/free-solid-svg-icons'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import { Accordion, AccordionSummary, AccordionDetails, Typography } from "@mui/material";
 import { ExpandMore } from "@mui/icons-material";
 // import { shadows } from '@mui/system';
 
 
 
-// function Competencies() {
+// function Competenciessssii
     // const [clicked, setClicked] = useState(false);
 
     // const toggle = index => {
